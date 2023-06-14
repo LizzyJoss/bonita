@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="8.0.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Docente">
+            <fields>
+                <field type="STRING" length="255" name="id" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="nombre" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="apellido" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="direccion" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="telefono" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="cargo" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Matricula">
+            <fields>
+                <field type="STRING" length="255" name="id" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="nombre" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="apellido" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="direccion" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="telefono" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="estadoCivil" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="fechaNacimiento" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
